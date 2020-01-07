@@ -17,7 +17,7 @@ window.addEventListener('scroll', function(e) {
             let scalePercent = Math.floor((window.innerHeight - imagesTop) * .5 / 100);
             images[i].classList.add('scale');
 
-            title[i].style.transform = "translate3d(0px, " + (scalePercent * (-80)) + "px, 0px)";
+            title[i].style.transform = "translate3d(0px, " + (scalePercent * (-50)) + "px, 0px)";
             if(scalePercent >=10){
                 images[i].style.transform = "scale(1.9"+ scalePercent +")";
             }
@@ -31,5 +31,3 @@ window.addEventListener('scroll', function(e) {
         }
     }
 });
-
-
